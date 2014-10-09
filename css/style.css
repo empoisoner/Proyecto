@@ -131,10 +131,27 @@ footer a:hover {
 	
 footer ul {
 	margin: 0px;
-	list-style:none;
-	color: #565656;
+	list-style: none;
+	color: #33FF99;
+	text-decoration: none;
 }
 	
 footer ul li a {
 	display: block;
+}
+footer div #about p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+.posicion {
+	padding-top:10px;
+	width: 40px;
+}
+
+footer div #popular ul li a {
+	text-decoration: none;
+	font-size:14px;
+	padding-top: 2px;
+	line-height:30px;
 }
