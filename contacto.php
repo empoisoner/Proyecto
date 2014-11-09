@@ -72,17 +72,17 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST") { //REVISA SI ESTO ESTA BIEN
         <!-- InstanceBeginEditable name="titulo de la seccion" -->
             <h1>Cont&aacute;ctenos</h1>
           
-          
+          <div class="mailinfo"><p>Su opini&oacute;n es importante para Nosotros,S&iacute; est&aacute;s interesado en contratar nuestros servicios, por favor rellena el formulario que se muestra a continuaci&oacute;n</p></div>
           
           <div class="mail">
 
                                 <form action="contacto.php" method="post">
                     <label for="nombre">Nombre:</label>
-                     <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                     <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required />
                      <label for="email">Email:</label>
-                     <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                     <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required />
                      <label for="mensaje">Mensaje:</label>
-                     <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                     <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
                      <input id="submit" type="submit" name="submit" value="Enviar" />
                     </form>
           
