@@ -84,7 +84,7 @@ h1 {
 		background-color:#ddd;
 		position: relative;
 }
-.main-noj, .main-cont {
+.main-noj, .main-cont, .main-etc {
 	width: 960px;
 	border-radius:10px;
 	margin:20px auto 0;	
@@ -318,6 +318,7 @@ textarea {
     margin-top:20px;
     cursor:pointer;
 }
+<<<<<<< HEAD
 .mail {
 	padding-bottom: 20px;
 }
@@ -337,3 +338,33 @@ textarea {
 	margin-top:5%;	
 	
 	}
+=======
+
+.mail {
+	padding-bottom: 20px;
+}
+
+.imagen-servicios {
+	width: 600px;
+	margin: 20px auto 0;
+	padding-bottom: 20px;
+}
+
+.imagen-servicios img {
+	max-width: 100%;
+}
+
+.return {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	color: #009;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.return a {
+	text-decoration: none;
+}
+>>>>>>> 2986fddff1678df183b9a82cb2c91d053fa5d6a8
