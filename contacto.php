@@ -1,22 +1,24 @@
 <?php
-$nombre= $_POST['nombre'];
-$email= $_POST['email'];
-$mensaje= $_POST['mensaje'];
-$para= 'ventas@telopongoenlapuerta.com';
-$titulo= 'ASUNTO DEL MENSAJE';
-$header='From: ' . $email;
-$msjCorreo= "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
-  
-if ($_POST['submit']) {
-if (mail($para, $titulo, $msjCorreo, $header)) {
-echo "<script language='javascript'>
-alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'www.telopongoenlapuerta.com';
-</script>";
-} else {
-echo 'Falló el envio';
-}
-}
+if ( $_SERVER["REQUEST_METHOD"] == "POST") { //REVISA SI ESTO ESTA BIEN
+    $nombre= $_POST['nombre'];
+    $email= $_POST['email'];
+    $mensaje= $_POST['mensaje'];
+    $para= 'ventas@telopongoenlapuerta.com';
+    $titulo= 'ASUNTO DEL MENSAJE';
+    $header='From: ' . $email;
+    $msjCorreo= "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
+
+    if ($_POST['submit']) {
+        if (mail($para, $titulo, $msjCorreo, $header)) {
+        echo "<script language='javascript'>
+        alert('Mensaje enviado, muchas gracias.');
+        window.location.href = 'www.telopongoenlapuerta.com';
+        </script>";
+        } else {
+        echo 'Falló el envio';
+        }
+    }
+}   // FIN DE MI MODIFICACION
 ?>
 
 <!-- InstanceBegin template="/Templates/telopongo.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
@@ -66,7 +68,7 @@ echo 'Falló el envio';
                 <li><a href="contacto.php">Cont&aacute;ctenos</a></li>
             </ul>
         </div>
-        <div class="main">
+        <div class="main-cont">
         <!-- InstanceBeginEditable name="titulo de la seccion" -->
             <h1>Cont&aacute;ctenos</h1>
           
