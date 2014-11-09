@@ -72,8 +72,6 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST") { //REVISA SI ESTO ESTA BIEN
         <!-- InstanceBeginEditable name="titulo de la seccion" -->
             <h1>Cont&aacute;ctenos</h1>
           
-          
-          
           <div class="mail">
 
                                 <form action="contacto.php" method="post">
