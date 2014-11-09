@@ -47,12 +47,11 @@
         </div>
         <div class="main">
         <!-- InstanceBeginEditable name="titulo de la seccion" -->
-            <h1>Cont&aacute;ctanos</h1>
+            <h1>Cont&aacute;ctenos</h1>
           
            
              <!-- InstanceEndEditable -->                
-        </div> 
-         <!-- InstanceBeginEditable name="infooter" -->     
+        </div>         
 		<footer>
             <div>          
     			<section id="about">
@@ -68,6 +67,7 @@
     					<h3>Encu&eacute;ntranos en la web!</h3>
     				</header>
     				<ul>
+                   
     					<li><a href="#"><img src="images/twitter.png" class="posicion"><b></b></a></li>
                         <li><a href="#"><img src="images/facebook.png" class="posicion"> <b></b></a></li>    					    					
     				</ul>
@@ -75,10 +75,10 @@
                
             </div>
             <div class="madeby">
-				 <p> Diseño Realizado por:<!--<a href="http://www.empoisoner.webege.com/" target="_blank">--> YPK Industries</a>/<a href="mailto:dmijares86@gmail.com">Contáctenos</a> 2014 telopongoenlapuerta.com PANAM&Aacute;</p>
+				 <p> Diseño Realizado por:<!--<a href="http://www.empoisoner.webege.com/" target="_blank">--> YPK Industries</a>/<a href="mailto:dmijares86@gmail.com">Contáctenos</a> 2014 telopongoenlapuerta.com PANAM&Aacute; - <a href="www.telopongoenlapuerta.com:2095">WebMail</a></p>
             </div>
       </footer>
-      <!-- InstanceEndEditable --> 
+
 </div>
 </body>
 <!-- InstanceEnd --></html>
