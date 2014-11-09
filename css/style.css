@@ -84,7 +84,7 @@ h1 {
 		background-color:#ddd;
 		position: relative;
 }
-.main-noj {
+.main-noj, .main-cont {
 	width: 960px;
 	border-radius:10px;
 	margin:20px auto 0;	
@@ -319,3 +319,9 @@ textarea {
     cursor:pointer;
 }
 
+<<<<<<< HEAD
+=======
+.mail {
+	padding-bottom: 20px;
+}
+>>>>>>> bb2781ca84cf9fc62e8e428eca4c49e2c61092b6
