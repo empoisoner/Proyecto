@@ -1,3 +1,24 @@
+<?php
+$nombre= $_POST['nombre'];
+$email= $_POST['email'];
+$mensaje= $_POST['mensaje'];
+$para= 'ventas@telopongoenlapuerta.com';
+$titulo= 'ASUNTO DEL MENSAJE';
+$header='From: ' . $email;
+$msjCorreo= "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
+  
+if ($_POST['submit']) {
+if (mail($para, $titulo, $msjCorreo, $header)) {
+echo "<script language='javascript'>
+alert('Mensaje enviado, muchas gracias.');
+window.location.href = 'www.telopongoenlapuerta.com';
+</script>";
+} else {
+echo 'Falló el envio';
+}
+}
+?>
+
 <!-- InstanceBegin template="/Templates/telopongo.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
 <head>
     <meta name="language" content="es-ve">
@@ -7,16 +28,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
     <!-- InstanceBeginEditable name="doctitle" -->
-    <title>Telopongoenlapuerta.com || Env&iacute;os Garantizados a Venezuela</title>
+    <title>Cont&aacute;ctenos || Telopongoenlapuerta.com</title>
     <!-- InstanceEndEditable -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css"/>    
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>    
     <script type="text/javascript" language="javascript">
     	$(document).ready(function() {
     		$('.box_skitter_large').skitter({
@@ -49,6 +70,24 @@
         <!-- InstanceBeginEditable name="titulo de la seccion" -->
             <h1>Cont&aacute;ctenos</h1>
           
+          
+          
+          <div class="mail">
+
+                                <form action="contacto.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                     <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+                     <label for="email">Email:</label>
+                     <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+                     <label for="mensaje">Mensaje:</label>
+                     <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+                     <input id="submit" type="submit" name="submit" value="Enviar" />
+                    </form>
+          
+          
+          </div>
+          
+           
            
              <!-- InstanceEndEditable -->                
         </div>         

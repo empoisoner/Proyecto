@@ -226,4 +226,53 @@ footer div #popular ul li a {
 		font-size: 18px;
 	
 	}	
+
+
+/*  CSS DEL FORMULARIO DE CORREO */
+
 	
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #333;
+    font-family:Arial;
+	
+}
+form {
+    margin:0 auto;
+    width:400px;
+	margin-top:30px;
+}
+ 
+input, textarea {
+    width:380px;
+   /* height:40px;*/
+    background:#999;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+	display:block;
+	resize:none;
+	font-size:14px;
+	
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
