@@ -205,8 +205,8 @@ footer div #popular ul li a {
 	left: 300px;
 	margin-bottom: 20px;
 	}
-.serv{
-	
+
+.serv1, .serv2, .serv3{
 		width:170px;
 		height:170px;
 		background-color:#fff;
@@ -218,12 +218,10 @@ footer div #popular ul li a {
 		border-radius:10px;	
 		box-sizing: border-box;
 		position: relative;
-		overflow: hidden;
 	
 	}
 	
-.serv:hover{
-	
+.serv1:hover, .serv2:hover, .serv3:hover {
 		width:170px;
 		height:170px;
 		background-color:#CCC;
@@ -234,15 +232,41 @@ footer div #popular ul li a {
 		padding-top:7px;
 		border-radius:10px;	
 		border-style: inset;
-    	border-width: 5px;
-		
-	
+    border-width: 5px;
 	}
+
+.serv1:hover img, .serv2:hover img, .serv3:hover img {
+	width: 150px;
+}
+
+.txt-serv1, .txt-serv2, .txt-serv3 {
+	display: none;
+	position: absolute;
+}
+
+.serv1:hover .txt-serv1 {
+	display: inline-block;
+	top: 175px;
+	left: 40px;
+}
+
+.serv2:hover .txt-serv2 {
+	display: inline-block;
+	top: 175px;
+	left: 50px;
+}
+
+.serv3:hover .txt-serv3 {
+	display: inline-block;
+	top: 175px;
+	left: 40px;
+}
 
 .marquee{
 		font-size: 18px;
 	
 	}	
+
 
 
 /*  CSS DEL FORMULARIO DE CORREO */
