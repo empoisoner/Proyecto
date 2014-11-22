@@ -12,7 +12,7 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST") { //REVISA SI ESTO ESTA BIEN
         if (mail($para, $titulo, $msjCorreo, $header)) {
         echo "<script language='javascript'>
         alert('Mensaje enviado, muchas gracias.');
-        window.location.href = 'www.telopongoenlapuerta.com';
+        window.location.href = '/index.html';
         </script>";
         } else {
         echo 'Falló el envio';
@@ -62,7 +62,7 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST") { //REVISA SI ESTO ESTA BIEN
         </div>
         <div class="navi">
             <ul>
-                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="contacto.php">Cont&aacute;ctenos</a></li>
