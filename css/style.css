@@ -128,6 +128,7 @@ footer div section {
 		
 footer div #about, footer div #blogroll {
 	padding-right: 20px;
+	text-align: justify;
 }
 		
 footer h3 {

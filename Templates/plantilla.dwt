@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta name="language" content="es-ve">
+    <meta name="author" content="YP Industries"/> <!-- sin K? ¬¬'' -->
+    <meta name="description" content="Sitio web de la empresa Telopongoenlapuerta.com la cual ofrece el servicio de envios puerta a puerta desde Panamá hacia Guatemala,Nicaragua,Costa Rica,Honduras,Ecuador,México,Colombia,Venezuela. Venta, asesoría,Servicios de traslados ejecutivos en Panamá,100% garantizado y confiable, Telopongoenlapuerta.com es su aliado de negocios en Panamá ">
+    <meta name="keywords" content="telopongoenlapuerta.com,Tecnologia,envios,tramites,puerta a puerta,servicio ejecutivo,traslados panama,">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Telopongoenlapuerta.com || Env&iacute;os Garantizados a Venezuela</title>
+    <!-- TemplateEndEditable -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+    <link type="text/css" href="../css/skitter.styles.css" media="all" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" language="javascript">
+    	$(document).ready(function() {
+    		$('.box_skitter_large').skitter({
+    			theme: 'round',
+    			dots: true,
+    			label:false, 
+    			preview: false,
+    			numbers_align: 'center'
+    		});
+    	});
+    </script>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+        <div class="header">
+            <img src="../images/banner.jpg">
+        </div>
+        <div class="navi">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../servicios.html">Servicios</a></li>
+                <li><a href="../nosotros.html">Nosotros</a></li>
+                <li><a href="../contacto.php">Cont&aacute;ctenos</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>Bienvenidos</h1>
+            <div class="sliderubi">
+                <div class="box_skitter box_skitter_large">
+                    <ul>
+                        <li>
+                            <a href="#cut"><img src="../images/envios01.jpg" class="cut" /></a>
+                            <div class="label_text"><p>Envios</p></div>
+                        </li>
+                        <li>
+                            <a href="#swapBlocks"><img src="../images/traslados01.jpg" class="swapBlocks" /></a>
+                            <div class="label_text"><p>Tramites</p></div>
+                        </li>
+                        <li>
+                            <a href="#swapBarsBack"><img src="../images/tramites01.jpg" class="swapBarsBack" /></a>
+                            <div class="label_text"><p>Servicio de Traslado Ejecutivo</p></div>
+                        </li>
+                    </ul>
+                </div> 
+            </div>               
+        </div>      
+		<footer>
+            <div>
+    			<section id="about">
+    				<header>
+    					<h3>Nuestra Empresa</h3>
+    				</header>
+    				<p>No tienes tiempo o contactos para colocar la mercancia que tu empresa produce o necesitas comprar en el mercado centro americano y suramericano? CONTACTANOS.
+
+Telopongoenlapuerta.com es el nuevo sitio web de compra venta al mayor y detal que ponemos a su disposicion, una alternativa sencilla y confiable para presentarle al mundo sus productos o adquirir el que neseciten, desde la comodidad de su Hogar u Oficina. </p>
+    			</section>    		
+    			<section id="popular">
+    				<header>
+    					<h3>Encu&eacute;ntranos en la web!</h3>
+    				</header>
+    				<ul>
+    					<li><a href="#"><img src="../images/twitter.png" class="posicion"><b></b></a></li>
+                        <li><a href="#"><img src="../images/facebook.png" class="posicion"> <b></b></a></li>    					    					
+    				</ul>
+    			</section>
+               
+            </div>
+            <div class="madeby">
+				 <p> Diseño Realizado por:<!--<a href="http://www.empoisoner.webege.com/" target="_blank">--> YPK Industries</a>/<a href="mailto:dmijares86@gmail.com">Contáctenos</a> 2014 telopongoenlapuerta.com PANAM&Aacute;</p>
+            </div>
+      </footer>
+</div>
+</body>
+</html>
